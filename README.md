@@ -55,8 +55,6 @@ open-source tooling and are fully reproducible by anyone. The Adobe
 Acrobat cross-validation step requires a licensed copy of Acrobat Pro
 and a manual export step, and is not independently automatable.
 
-
-
 > **Note on `data/`:** This folder contains source documents used in the
 > audit. The Federal Register document and DS-11 passport form are
 > public federal records. If you're replicating this against your own
@@ -87,4 +85,4 @@ to `output/` via `pipeline_config.output_path()`, so results land in the
 same place regardless of which directory a script is launched from.
 
 
-[Your contact info / LinkedIn — add here]
+[Your contact info / LinkedIn — (https://www.linkedin.com/in/cvanstey/)]
