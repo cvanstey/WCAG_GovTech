@@ -133,3 +133,45 @@ full detail.
 [Your contact info / LinkedIn - (https://www.linkedin.com/in/cvanstey/)]
 
 ## Repository structure
+src/
+pipeline_config.py     # Shared paths, canonical filenames, logging helpers
+compliance_engine.py   # Live web-interface axe-core scans
+multi_tier_eval.py     # Automated pypdf structural checks (PDF tier)
+adobe_parsing.py       # Adobe Acrobat DOCX report parser (PDF tier)
+merge.py               # Cross-validation + master dataset assembly
+data/                    # Source PDFs + Adobe DOCX exports (see note below)
+output/                  # Generated CSVs (defect matrices, cross-validation results)
+node_modules/axe-core/   # axe-core library (npm install axe-core --save-dev)
+
+> **Note on `data/`:** This folder contains source documents used in the
+> audit. The Federal Register document and DS-11 passport form are
+> public federal records. If you're replicating this against your own
+> jurisdiction's documents, point `DSSA_DATA_DIR` at your own data
+> directory rather than relying on the contents here.
+
+## Running the pipeline
+
+Requirements: Python 3.x, Node.js (for axe-core), Chrome/Chromedriver,
+Adobe Acrobat Pro (only required for the manual cross-validation step).
+
+```bash
+npm install axe-core --save-dev
+pip install -r requirements.txt   # selenium, pandas, python-docx, pypdf
+
+# Optional: point at a custom data directory
+set DSSA_DATA_DIR=C:\path\to\your\data      # Windows
+export DSSA_DATA_DIR=/path/to/your/data     # macOS/Linux
+
+python src/compliance_engine.py   # live web-interface scan
+python src/multi_tier_eval.py     # automated PDF structural check
+python src/adobe_parsing.py       # parse Adobe Acrobat DOCX reports
+python src/merge.py               # assemble cross-validated master dataset
+```
+
+whether alt text is actually accurate) are outside this pipeline's
+current scope. See the paper's Methodology and Limitations sections for
+full detail.
+
+## Contact
+
+[Your contact info / LinkedIn — add here]
