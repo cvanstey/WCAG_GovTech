@@ -1,0 +1,48 @@
+DSSA_Timestamp,GovTech_Vendor,Municipal_Code,WCAG_Success_Criterion,Severity_Impact,Defect_Node_Count,Litigation_Risk_Weight
+2026-07-05 13:17:27.286358,NJLM_State_Magazine,February 2026 NJ Municipalities Magazine sample (PDF).pdf,pdf-tagged-pdf,critical,1,10
+2026-07-05 13:17:27.286967,NJLM_State_Magazine,February 2026 NJ Municipalities Magazine sample (PDF).pdf,pdf-primary-language,serious,1,5
+2026-07-05 13:17:27.287149,NJLM_State_Magazine,February 2026 NJ Municipalities Magazine sample (PDF).pdf,pdf-title,serious,1,5
+2026-07-05 13:17:27.288113,NJLM_State_Magazine,February 2026 NJ Municipalities Magazine sample (PDF).pdf,pdf-tagged-content,critical,1,10
+2026-07-05 13:17:27.288273,NJLM_State_Magazine,February 2026 NJ Municipalities Magazine sample (PDF).pdf,pdf-tagged-annotations,critical,1,10
+2026-07-05 13:17:27.288404,NJLM_State_Magazine,February 2026 NJ Municipalities Magazine sample (PDF).pdf,pdf-tab-order,serious,1,5
+2026-07-05 13:17:27.289965,NJLM_State_Magazine,February 2026 NJ Municipalities Magazine sample (PDF).pdf,pdf-figures-alternate-text,serious,1,5
+2026-07-05 13:17:27.290493,NJLM_State_Magazine,February 2026 NJ Municipalities Magazine sample (PDF).pdf,pdf-other-elements-alternate-text,serious,1,5
+2026-07-05 13:17:27.302718,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-tagged-pdf,critical,1,10
+2026-07-05 13:17:27.302998,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-primary-language,serious,1,5
+2026-07-05 13:17:27.303154,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-title,serious,1,5
+2026-07-05 13:17:27.303306,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-bookmarks,serious,1,5
+2026-07-05 13:17:27.303771,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-tagged-content,critical,1,10
+2026-07-05 13:17:27.303898,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-tagged-annotations,critical,1,10
+2026-07-05 13:17:27.304022,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-tab-order,serious,1,5
+2026-07-05 13:17:27.305937,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-figures-alternate-text,serious,1,5
+2026-07-05 13:17:27.306136,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-nested-alternate-text,serious,1,5
+2026-07-05 13:17:27.306369,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-associated-with-content,serious,1,5
+2026-07-05 13:17:27.306551,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-hides-annotation,serious,1,5
+2026-07-05 13:17:27.306734,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-other-elements-alternate-text,serious,1,5
+2026-07-05 13:17:27.307405,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-rows,serious,1,5
+2026-07-05 13:17:27.307603,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-th-and-td,serious,1,5
+2026-07-05 13:17:27.307789,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-headers,serious,1,5
+2026-07-05 13:17:27.307970,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-regularity,serious,1,5
+2026-07-05 13:17:27.308558,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-list-items,serious,1,5
+2026-07-05 13:17:27.308754,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-lbl-and-lbody,serious,1,5
+2026-07-05 13:17:27.309107,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-appropriate-nesting,serious,1,5
+2026-07-05 13:17:27.316361,Passport_Form,ds11_pdf.pdf,pdf-tagged-pdf,critical,1,10
+2026-07-05 13:17:27.316768,Passport_Form,ds11_pdf.pdf,pdf-primary-language,serious,1,5
+2026-07-05 13:17:27.316928,Passport_Form,ds11_pdf.pdf,pdf-title,serious,1,5
+2026-07-05 13:17:27.317630,Passport_Form,ds11_pdf.pdf,pdf-tagged-content,critical,1,10
+2026-07-05 13:17:27.317810,Passport_Form,ds11_pdf.pdf,pdf-tagged-annotations,critical,1,10
+2026-07-05 13:17:27.317938,Passport_Form,ds11_pdf.pdf,pdf-tab-order,serious,1,5
+2026-07-05 13:17:27.318981,Passport_Form,ds11_pdf.pdf,pdf-tagged-form-fields,critical,1,10
+2026-07-05 13:17:27.319110,Passport_Form,ds11_pdf.pdf,pdf-field-descriptions,serious,1,5
+2026-07-05 13:17:27.319434,Passport_Form,ds11_pdf.pdf,pdf-figures-alternate-text,serious,1,5
+2026-07-05 13:17:27.319558,Passport_Form,ds11_pdf.pdf,pdf-nested-alternate-text,serious,1,5
+2026-07-05 13:17:27.319740,Passport_Form,ds11_pdf.pdf,pdf-associated-with-content,serious,1,5
+2026-07-05 13:17:27.319867,Passport_Form,ds11_pdf.pdf,pdf-hides-annotation,serious,1,5
+2026-07-05 13:17:27.319993,Passport_Form,ds11_pdf.pdf,pdf-other-elements-alternate-text,serious,1,5
+2026-07-05 13:17:27.320350,Passport_Form,ds11_pdf.pdf,pdf-rows,serious,1,5
+2026-07-05 13:17:27.320471,Passport_Form,ds11_pdf.pdf,pdf-th-and-td,serious,1,5
+2026-07-05 13:17:27.320592,Passport_Form,ds11_pdf.pdf,pdf-headers,serious,1,5
+2026-07-05 13:17:27.320736,Passport_Form,ds11_pdf.pdf,pdf-regularity,serious,1,5
+2026-07-05 13:17:27.321186,Passport_Form,ds11_pdf.pdf,pdf-list-items,serious,1,5
+2026-07-05 13:17:27.321379,Passport_Form,ds11_pdf.pdf,pdf-lbl-and-lbody,serious,1,5
+2026-07-05 13:17:27.321741,Passport_Form,ds11_pdf.pdf,pdf-appropriate-nesting,serious,1,5

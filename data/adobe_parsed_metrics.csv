@@ -1,0 +1,28 @@
+DSSA_Timestamp,GovTech_Vendor,Municipal_Code,WCAG_Success_Criterion,Severity_Impact,Defect_Node_Count,Litigation_Risk_Weight
+2026-07-01 21:02:15.405248,NJLM_State_Magazine,February 2026 NJ Municipalities Magazine sample (PDF).pdf,pdf-tagged-pdf,critical,1,10
+2026-07-01 21:02:15.405653,NJLM_State_Magazine,February 2026 NJ Municipalities Magazine sample (PDF).pdf,pdf-primary-language,serious,1,5
+2026-07-01 21:02:15.405805,NJLM_State_Magazine,February 2026 NJ Municipalities Magazine sample (PDF).pdf,pdf-title,serious,1,5
+2026-07-01 21:02:15.406377,NJLM_State_Magazine,February 2026 NJ Municipalities Magazine sample (PDF).pdf,pdf-tagged-content,critical,1,10
+2026-07-01 21:02:15.406540,NJLM_State_Magazine,February 2026 NJ Municipalities Magazine sample (PDF).pdf,pdf-tagged-annotations,critical,1,10
+2026-07-01 21:02:15.406710,NJLM_State_Magazine,February 2026 NJ Municipalities Magazine sample (PDF).pdf,pdf-tab-order,serious,1,5
+2026-07-01 21:02:15.408214,NJLM_State_Magazine,February 2026 NJ Municipalities Magazine sample (PDF).pdf,pdf-figures-alternate-text,serious,1,5
+2026-07-01 21:02:15.408712,NJLM_State_Magazine,February 2026 NJ Municipalities Magazine sample (PDF).pdf,pdf-other-elements-alternate-text,serious,1,5
+2026-07-01 21:02:15.416353,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-tagged-pdf,critical,1,10
+2026-07-01 21:02:15.416616,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-primary-language,serious,1,5
+2026-07-01 21:02:15.416769,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-title,serious,1,5
+2026-07-01 21:02:15.416895,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-bookmarks,serious,1,5
+2026-07-01 21:02:15.417346,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-tagged-content,critical,1,10
+2026-07-01 21:02:15.417471,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-tagged-annotations,critical,1,10
+2026-07-01 21:02:15.417593,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-tab-order,serious,1,5
+2026-07-01 21:02:15.419120,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-figures-alternate-text,serious,1,5
+2026-07-01 21:02:15.419257,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-nested-alternate-text,serious,1,5
+2026-07-01 21:02:15.419411,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-associated-with-content,serious,1,5
+2026-07-01 21:02:15.419538,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-hides-annotation,serious,1,5
+2026-07-01 21:02:15.419663,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-other-elements-alternate-text,serious,1,5
+2026-07-01 21:02:15.420083,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-rows,serious,1,5
+2026-07-01 21:02:15.420431,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-th-and-td,serious,1,5
+2026-07-01 21:02:15.420641,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-headers,serious,1,5
+2026-07-01 21:02:15.420840,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-regularity,serious,1,5
+2026-07-01 21:02:15.421387,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-list-items,serious,1,5
+2026-07-01 21:02:15.421590,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-lbl-and-lbody,serious,1,5
+2026-07-01 21:02:15.422048,Federal_GPO_Register,FR-2026-01-02.pdf,pdf-appropriate-nesting,serious,1,5

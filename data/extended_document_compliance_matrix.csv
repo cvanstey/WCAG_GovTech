@@ -1,0 +1,7 @@
+DSSA_Timestamp,GovTech_Vendor,Municipal_Code,WCAG_Success_Criterion,WCAG_Title,Severity_Impact,Defect_Node_Count,Litigation_Risk_Weight
+2026-07-01 21:01:59.117737,NJLM_State_Magazine,February 2026 NJ Municipalities Magazine sample (PDF).pdf,1.3.1,Info and Relationships,critical,1,10
+2026-07-01 21:01:59.117828,NJLM_State_Magazine,February 2026 NJ Municipalities Magazine sample (PDF).pdf,3.1.1,Language of Page,serious,1,5
+2026-07-01 21:01:59.118145,NJLM_State_Magazine,February 2026 NJ Municipalities Magazine sample (PDF).pdf,2.4.2,Page Titled,serious,1,5
+2026-07-01 21:01:59.130574,Federal_GPO_Register,FR-2026-01-02.pdf,1.3.1,Info and Relationships,critical,1,10
+2026-07-01 21:01:59.130611,Federal_GPO_Register,FR-2026-01-02.pdf,3.1.1,Language of Page,serious,1,5
+2026-07-01 21:01:59.130712,Federal_GPO_Register,FR-2026-01-02.pdf,2.4.2,Page Titled,serious,1,5

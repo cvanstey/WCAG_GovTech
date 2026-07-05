@@ -1,0 +1,9 @@
+DSSA_Timestamp,GovTech_Vendor,Municipal_Code,WCAG_Success_Criterion,Severity_Impact,Defect_Node_Count,Litigation_Risk_Weight
+2026-07-01 14:58:52.320436,NJLM_State_Magazine,Feb_2026_Sample_Issue.pdf,pdf-tagged-pdf,critical,1,10
+2026-07-01 14:58:52.320482,NJLM_State_Magazine,Feb_2026_Sample_Issue.pdf,pdf-primary-language,serious,1,5
+2026-07-01 14:58:52.320486,NJLM_State_Magazine,Feb_2026_Sample_Issue.pdf,pdf-title,serious,1,5
+2026-07-01 14:58:52.320489,NJLM_State_Magazine,Feb_2026_Sample_Issue.pdf,pdf-tagged-content,critical,1,10
+2026-07-01 14:58:52.320491,NJLM_State_Magazine,Feb_2026_Sample_Issue.pdf,pdf-tagged-annotations,critical,1,10
+2026-07-01 14:58:52.320494,NJLM_State_Magazine,Feb_2026_Sample_Issue.pdf,pdf-tab-order,serious,1,5
+2026-07-01 14:58:52.320496,NJLM_State_Magazine,Feb_2026_Sample_Issue.pdf,pdf-figures-alternate-text,serious,1,5
+2026-07-01 14:58:52.320498,NJLM_State_Magazine,Feb_2026_Sample_Issue.pdf,pdf-other-elements-alternate-text,serious,1,5

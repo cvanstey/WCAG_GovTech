@@ -1,0 +1,16 @@
+DSSA_Timestamp,GovTech_Vendor,Municipal_Code,WCAG_Success_Criterion,Severity_Impact,Defect_Node_Count,Litigation_Risk_Weight
+2026-07-02 10:32:47.657019,Cite_E_net,Plainfield_NJ,image-alt,critical,7,70
+2026-07-02 10:32:47.657091,Cite_E_net,Plainfield_NJ,label,critical,2,20
+2026-07-02 10:32:47.657094,Cite_E_net,Plainfield_NJ,link-in-text-block,serious,1,5
+2026-07-02 10:32:47.657096,Cite_E_net,Plainfield_NJ,link-name,serious,5,25
+2026-07-02 10:32:48.697737,HLS_Systems_PropertyTaxInquiry,JerseyCity_NJ,button-name,critical,1,10
+2026-07-02 10:32:48.697758,HLS_Systems_PropertyTaxInquiry,JerseyCity_NJ,html-has-lang,serious,1,5
+2026-07-02 10:32:48.697761,HLS_Systems_PropertyTaxInquiry,JerseyCity_NJ,image-alt,critical,1,10
+2026-07-02 10:32:48.697763,HLS_Systems_PropertyTaxInquiry,JerseyCity_NJ,label,critical,1,10
+2026-07-02 10:32:50.834618,Edmunds_WIPP,Multi_Tenant_Generic,html-has-lang,serious,1,5
+2026-07-02 10:32:50.834638,Edmunds_WIPP,Multi_Tenant_Generic,image-alt,critical,1,10
+2026-07-02 10:32:50.834641,Edmunds_WIPP,Multi_Tenant_Generic,label,critical,10,100
+2026-07-02 10:32:52.358643,Tyler_Tech_EnerGov,JerseyCity_NJ,aria-prohibited-attr,serious,1,5
+2026-07-02 10:32:52.358683,Tyler_Tech_EnerGov,JerseyCity_NJ,aria-roles,critical,1,10
+2026-07-02 10:32:52.358686,Tyler_Tech_EnerGov,JerseyCity_NJ,link-name,serious,1,5
+2026-07-02 10:32:52.358688,Tyler_Tech_EnerGov,JerseyCity_NJ,list,serious,1,5
