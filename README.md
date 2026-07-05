@@ -83,6 +83,14 @@ python src/merge.py               # assemble cross-validated master dataset
 Each script logs `[RUNNING]` / `[COMPLETE]` markers and writes its output
 to `output/` via `pipeline_config.output_path()`, so results land in the
 same place regardless of which directory a script is launched from.
-
+src/
+pipeline_config.py     # Shared paths, canonical filenames, logging helpers
+compliance_engine.py   # Live web-interface axe-core scans
+multi_tier_eval.py     # Automated pypdf structural checks (PDF tier)
+adobe_parsing.py       # Adobe Acrobat DOCX report parser (PDF tier)
+merge.py               # Cross-validation + master dataset assembly
+data/                    # Source PDFs + Adobe DOCX exports (see note below)
+output/                  # Generated CSVs (defect matrices, cross-validation results)
+node_modules/axe-core/   # axe-core library (npm install axe-core --save-dev)
 
 [Your contact info / LinkedIn — (https://www.linkedin.com/in/cvanstey/)]
