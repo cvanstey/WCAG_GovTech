@@ -115,7 +115,7 @@ design).
 
 ## Paper
 
-[Link to full paper / DSSA submission — add here]
+Email cynthiaanstey@gmail.com for a copy. 
 
 ## Limitations
 
