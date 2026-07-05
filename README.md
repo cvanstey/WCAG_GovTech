@@ -2,7 +2,7 @@
 
 An empirical, multi-tiered black-box accessibility audit of public-facing
 digital infrastructure across municipal, state, and federal government
-systems in New Jersey — built to accompany the research paper
+systems in New Jersey, built to accompany the research paper
 *"The Vendor Gap: A Technical Debt Audit of WCAG Compliance in New Jersey
 GovTech"* (Stockton University, DSSA, Summer 2026).
 
@@ -93,4 +93,4 @@ data/                    # Source PDFs + Adobe DOCX exports (see note below)
 output/                  # Generated CSVs (defect matrices, cross-validation results)
 node_modules/axe-core/   # axe-core library (npm install axe-core --save-dev)
 
-[Your contact info / LinkedIn — (https://www.linkedin.com/in/cvanstey/)]
+[Contact info / LinkedIn — (https://www.linkedin.com/in/cvanstey/)]
