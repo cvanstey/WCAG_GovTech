@@ -1,10 +1,9 @@
-# The Vendor Gap: WCAG Compliance Audit of NJ GovTech
+# A Multi-Tier Technical Debt Audit of WCAG Compliance in New Jersey GovTech
 
 An empirical, multi-tiered black-box accessibility audit of public-facing
 digital infrastructure across municipal, state, and federal government
 systems in New Jersey, built to accompany the research paper
-*"The Vendor Gap: A Technical Debt Audit of WCAG Compliance in New Jersey
-GovTech"* (Stockton University, DSSA, Summer 2026).
+*"A Multi-Tier Technical Debt Audit of WCAG Compliance in New Jersey GovTech"* (Stockton University, DSSA, Summer 2026).
 
 ## What this is
 
