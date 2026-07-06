@@ -27,30 +27,28 @@ disclosure statement. Every vendor named in this study was contacted
 prior to publication to confirm findings and offer the opportunity to
 respond.
 
-Pipeline Architecture
-Public Websites
-        │
-        ▼
- Selenium + axe-core
-        │
-        ▼
- Web Accessibility Dataset
-        │
-        ├────────────────────┐
-        │                    │
-        ▼                    ▼
- Government PDFs      Adobe Acrobat Reports
-        │                    │
-        ▼                    ▼
-   pypdf Analysis     Manual Validation Parser
-        │                    │
-        └────────────┬────────┘
-                     ▼
-          Cross-Validation Engine
-                     ▼
-          Master Research Dataset
+##Pipeline
+Website Scan
+     │
+     ▼
+Selenium + axe-core
+     │
+     ▼
+Web Findings
+     │
+     │
+PDF Scan ──► pypdf ───────────────┐
+                                  │
+Adobe Reports ─► Acrobat Parser ──┤
+                                  ▼
+                          merge.py
+                                  ▼
+                    Master Research Dataset
+                                  ▼
+                   Charts • Tables • Analysis
 
 The pipeline intentionally uses multiple independent evaluation methods rather than relying on a single accessibility engine.
+
 ## Methodology summary
 
 Web Accessibility Evaluation
