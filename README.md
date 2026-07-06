@@ -29,7 +29,7 @@ respond.
 
 ## Pipeline
 
-```
+<pre>
 Website Scan
      │
      ▼
@@ -48,7 +48,7 @@ Adobe Reports ─► Acrobat Parser ──┤
                     Master Research Dataset
                                   ▼
                    Charts • Tables • Analysis
-```
+</pre>
 
 The pipeline intentionally uses multiple independent evaluation methods rather than relying on a single accessibility engine.
 
