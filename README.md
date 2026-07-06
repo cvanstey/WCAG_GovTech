@@ -27,7 +27,9 @@ disclosure statement. Every vendor named in this study was contacted
 prior to publication to confirm findings and offer the opportunity to
 respond.
 
-##Pipeline
+## Pipeline
+
+```
 Website Scan
      │
      ▼
@@ -46,6 +48,7 @@ Adobe Reports ─► Acrobat Parser ──┤
                     Master Research Dataset
                                   ▼
                    Charts • Tables • Analysis
+```
 
 The pipeline intentionally uses multiple independent evaluation methods rather than relying on a single accessibility engine.
 
