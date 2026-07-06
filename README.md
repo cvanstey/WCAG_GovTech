@@ -8,17 +8,10 @@ GovTech"* (Stockton University, DSSA, Summer 2026).
 
 ## What this is
 
-This pipeline programmatically audits live government websites and
-distributed government PDFs against WCAG 2.1 Level AA success criteria,
-using a combination of automated tooling and manual cross-validation. It
-was built to answer two questions:
+This project combines multiple independent evaluation channels into a unified research pipeline capable of producing cross-validated accessibility datasets suitable for empirical analysis.
 
-1. Are New Jersey's government digital platforms — across vendors,
-   municipalities, and levels of government — currently meeting WCAG 2.1
-   AA, or is non-compliance widespread regardless of vendor?
-2. Given the ADA Title II final rule's compliance deadlines (April 2027
-   for larger entities, April 2028 for smaller ones), how large is the
-   gap today?
+1. Are New Jersey government digital platforms meeting WCAG 2.1 Level AA regardless of vendor or platform?
+2. Given the ADA Title II compliance deadlines (April 2027 and April 2028), can we assess current accessibility gap?
 
 The full findings, methodology discussion, and limitations are in the
 paper (linked below). This repository contains the reproducible portion
@@ -35,20 +28,69 @@ disclosure statement. Every vendor named in this study was contacted
 prior to publication to confirm findings and offer the opportunity to
 respond.
 
+Pipeline Architecture
+Public Websites
+        │
+        ▼
+ Selenium + axe-core
+        │
+        ▼
+ Web Accessibility Dataset
+        │
+        ├────────────────────┐
+        │                    │
+        ▼                    ▼
+ Government PDFs      Adobe Acrobat Reports
+        │                    │
+        ▼                    ▼
+   pypdf Analysis     Manual Validation Parser
+        │                    │
+        └────────────┬────────┘
+                     ▼
+          Cross-Validation Engine
+                     ▼
+          Master Research Dataset
+
+The pipeline intentionally uses multiple independent evaluation methods rather than relying on a single accessibility engine.
 ## Methodology summary
 
-Two independent audit channels:
+Web Accessibility Evaluation
 
-- **Live web-interface scanning** (`compliance_engine.py`) — a headless
-  Chrome session (Selenium) with the [axe-core](https://github.com/dequelabs/axe-core)
-  accessibility engine injected into the page DOM, scanning against
-  `wcag2a` and `wcag21aa` rule sets.
-- **PDF structural auditing** — a dual-channel check on distributed
-  government PDFs:
-  - `multi_tier_eval.py`: automated structural checks via `pypdf`
-    (tag-tree presence, language declaration, title metadata).
-  - `adobe_parsing.py`: parses Adobe Acrobat Pro's exported `.docx`
-    accessibility reports for a full manual cross-validation pass.
+compliance_engine.py
+
+Selenium-driven headless Chrome sessions
+axe-core injected directly into the page DOM
+Evaluation against:
+WCAG 2.0 A
+WCAG 2.1 AA
+Structured defect extraction into a normalized research dataset
+PDF Accessibility Evaluation
+
+multi_tier_eval.py
+
+Automated structural inspection using pypdf, including:
+
+Document tag-tree detection
+Language metadata
+Document title metadata
+Additional directory link analysis
+Manual Cross-Validation
+
+adobe_parsing.py
+
+Parses exported Adobe Acrobat Pro accessibility reports to independently validate automated PDF findings.
+
+This stage requires Adobe Acrobat Pro and cannot be fully automated.
+
+Dataset Assembly
+
+merge.py
+
+Combines findings from all audit channels into a unified master dataset used for statistical analysis and visualization.
+
+module.py
+
+Reporting feature summarizing findings.
 
 The web-scan and `pypdf` components rely only on public endpoints and
 open-source tooling and are fully reproducible by anyone. The Adobe
@@ -78,6 +120,7 @@ python src/compliance_engine.py   # live web-interface scan
 python src/multi_tier_eval.py     # automated PDF structural check
 python src/adobe_parsing.py       # parse Adobe Acrobat DOCX reports
 python src/merge.py               # assemble cross-validated master dataset
+python src/module.py              # reporting and plot writer
 ```
 
 Each script logs `[RUNNING]` / `[COMPLETE]` markers and writes its output
